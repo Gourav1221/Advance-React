@@ -3,6 +3,7 @@ import logo from './logo.svg'
 import './App.css'
 import { useTimeout } from './Hooks/useTimeout'
 import { Timer } from './Component/Timer'
+import { Fetch } from './Component/Fetch'
 
 function App() {
   
@@ -14,6 +15,8 @@ function App() {
        {/* <h1> {isReady ? "Ready" : "Not Ready"}</h1> */}
 
        <Timer/>
+
+       <Fetch/>
 
 
 
